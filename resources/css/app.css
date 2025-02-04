@@ -1,0 +1,9 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+.fi-btn {
+    @apply bg-primary hover:bg-primary/80 text-primary-foreground;
+}

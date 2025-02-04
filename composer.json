@@ -1,0 +1,36 @@
+{
+    "name": "codeplugtech/plug-dashboard",
+    "description": "A beautiful dashboard with Paddle Subscription",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "laravel/cashier-paddle": "^2.5",
+        "livewire/livewire": "^3.5",
+        "filament/forms": "^3.2",
+        "laravel/laravel": "^11",
+        "danharrin/livewire-rate-limiting": "dev-main"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Codeplugtech\\PlugDashboard\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codeplugtech\\PlugDashboard\\PlugDashboardServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Sathish Kumar Selvamani",
+            "email": "satz@codeplugtech.in",
+            "homepage": "https://github.com/codeplugtech",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": false
+}

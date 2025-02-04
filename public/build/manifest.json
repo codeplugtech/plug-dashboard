@@ -1,0 +1,20 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-Do4_E-7V.js",
+    "name": "app",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "css": [
+      "assets/app-rsYS5ewh.css"
+    ]
+  },
+  "resources/js/plug-dashboard.js": {
+    "file": "assets/plug-dashboard-DDoReUwD.js",
+    "name": "plug-dashboard",
+    "src": "resources/js/plug-dashboard.js",
+    "isEntry": true,
+    "imports": [
+      "resources/css/app.css"
+    ]
+  }
+}
